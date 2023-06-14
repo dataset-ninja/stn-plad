@@ -32,8 +32,8 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/stn-plad"
 ### * Optional after uploading ###
 ##################################
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
-    "images": "https://github.com/andreluizbvs/PLAD/releases/download/1.0/plad.zip",
-    "labels": "https://github.com/andreluizbvs/PLAD/files/8952243/labels.zip",
+    "Full plad dataset": "https://github.com/andreluizbvs/PLAD/releases/download/1.0/plad.zip",
+    "Labels": "https://github.com/andreluizbvs/PLAD/files/8952243/labels.zip",
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
