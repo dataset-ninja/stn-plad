@@ -15,5 +15,5 @@ dtools.download(dataset='STN PLAD', dst_path='~/dtools/datasets/STN PLAD.tar')
 ```
 The data in original format can be downloaded here:
 
-- 🔗[Full plad dataset](https://github.com/andreluizbvs/PLAD/releases/download/1.0/plad.zip)
+- 🔗[Full STN PLAD dataset](https://github.com/andreluizbvs/PLAD/releases/download/1.0/plad.zip)
 - 🔗[Labels](https://github.com/andreluizbvs/PLAD/files/8952243/labels.zip)
