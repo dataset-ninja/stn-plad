@@ -1,6 +1,6 @@
 Dataset **STN PLAD** can be downloaded in Supervisely format:
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/w/l/AJ/jEFYpS8kGivKVygJ0oCjbdbjN2xK7bORwSfxPM2oy3l8k1EM0XAa2xPb9f1v3CcaOaFIrYwEb1bdm87E67eEdIWnYpYi5Ygx9825N1h0sARI29AcEB5LQnBy4HAK.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/w/l/AJ/jEFYpS8kGivKVygJ0oCjbdbjN2xK7bORwSfxPM2oy3l8k1EM0XAa2xPb9f1v3CcaOaFIrYwEb1bdm87E67eEdIWnYpYi5Ygx9825N1h0sARI29AcEB5LQnBy4HAK.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
