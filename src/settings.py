@@ -22,8 +22,11 @@ PROJECT_NAME_FULL: Optional[
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.GNU_GPL_v3()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy()]
-CATEGORY: Category = Category.EnergyAndUtilities()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Energy(),
+    Domain.DroneInspection(),
+]
+CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Drones())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -53,7 +56,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = "https://arxiv.org/pdf/2108.07944.pdf"
+PAPER: Optional[str] = "https://arxiv.org/abs/2108.07944"
 CITATION_URL: Optional[str] = "https://github.com/andreluizbvs/PLAD#citing"
 AUTHORS: Optional[List[str]] = [
     "Vieira-e-Silva, André Luiz Buarque",
