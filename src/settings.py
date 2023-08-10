@@ -17,6 +17,7 @@ PROJECT_NAME: str = "STN PLAD"
 PROJECT_NAME_FULL: Optional[
     str
 ] = "STN PLAD: A Dataset for Multi-Size Power Line Assets Detection in High-Resolution UAV Images"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -96,6 +97,7 @@ def get_settings():
 
     settings = {
         "project_name": PROJECT_NAME,
+        "hide_dataset": HIDE_DATASET,
         "license": LICENSE,
         "applications": APPLICATIONS,
         "category": CATEGORY,
