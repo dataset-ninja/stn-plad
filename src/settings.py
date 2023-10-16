@@ -22,7 +22,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.GNU_GPL_v3()
+LICENSE: License = License.GNU_GPL_v3(source_url="https://github.com/andreluizbvs/PLAD/blob/main/LICENSE")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Energy(),
     Domain.DroneInspection(),
