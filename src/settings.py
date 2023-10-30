@@ -70,6 +70,8 @@ AUTHORS: Optional[List[str]] = [
     "Sgotti, Virginia Adélia Cordeiro",
     "Neto, Henrique Baptista Duffles Teixeira Lott",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["albvs@cin.ufpe.br","hcf2@cin.ufpe.br","tmc2@cin.ufpe.br","vt@cin.ufpe.br","francisco.simoes@ufrpe.br"]
+
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
@@ -119,6 +121,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
